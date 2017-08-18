@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>主播星势力-首页</title>
+		<link rel="stylesheet" href="css/style_star_pc_index.css" />
+		<link rel="stylesheet" href="css/style_star_pc_main.css"/>
+		<!-- 视频播放器 -->
+		<link href="video/video-js.css" rel="stylesheet" type="text/css">
+		<script src="video/video.js"></script>
+		
+		<!-- 左右滑动 -->
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
+		<script type="text/javascript" src="js/star-pcindex-common.js"></script> 
+		<script type="text/javascript" src="js/star-pcindex.js"></script>
+		
+		
+	</head>
+	<body>
+		<!--logo 开始-->
+		<div class="top_all">
+		    <div class="top">
+		    	<div class="top_l">
+		    		<a href="#"><img src="images/star_pc_logo_xingshili.png" alt="主播星势力" /></a>
+		    		<a href="#"><img src="images/star_pc_logo_biggar.png" alt="比格秀" /></a>
+		    		<a href="#"><img src="images/star_pc_logo_gztv.png" alt="广州广播电视台综合频道" /></a>
+		    	</div>
+		        <div class="top_r">
+		        	<a href="#" class="pc_weibo">官方微博</a>
+		        	<!--<a href="#"onMouseOver="document.all.pc_erweima.style.visibility=''" onMouseOut="document.all.pc_erweima.style.visibility='hidden'">官方微信</a>
+			    	<div class="pc_erweima">
+				        <img src="images/biggar_logo.jpg" width="100" height="100" />
+						关注官方微信
+				    </div>-->
+				    <div class="weixin" onmouseover="this.className = 'weixin on';" onmouseout="this.className = 'weixin';">
+						<a href="javascript:;">官方微信</a>
+					    <div class="weixin_nr">
+					    	<div class="arrow"></div>
+					        <img src="images/biggar_logo.jpg" width="90" height="90" />
+					    </div>
+					</div>
+		        	<a href="#" class="pc_app">比格秀APP</a>
+		        </div>
+		    </div>
+		</div>
+		<!--logo 结束-->
+		<!-- banner 开始 -->
+		<div class="index_banner">
+			<img src="images/banner_bg.jpg" alt="" />
+		</div>
+		<!-- banner 结束 -->
+		<!-- 导航 开始 -->
+		<div class="nav_content_all">
+			<div class="nav_content">
+				<div class="nav_cont_top">
+					<a class="current" href="#">首页</a>
+					<a href="#">新闻热点</a>
+					<a href="#">选手风采</a>
+					<a href="#">活动花絮</a>
+					<a href="#">报名参赛</a>
+				</div>
+				<div class="nav_cont_bottom">
+					<div class="propaganda_title">
+						<i></i>
+						<h4>主播星势力宣传视频</h4>
+					</div>
+					<div class="propaganda_content">
+						<div class="propaganda_cont_l">
+							<!--<iframe src="video/index.html"></iframe>-->
+							<div style="width: 707px;height: 490px;margin:0;">
+								<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="707" height="490" poster="images/shiping_bg.jpg" data-setup="{}">
+									<source src="video/zhuboxinshili.mov" type='video/mp4' />
+									<source src="video/zhuboxinshili.mov" type='video/webm' />
+									<source src="video/zhuboxinshili.mov" type='video/ogg' />
+									<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								</video>
+							</div>
+						</div>
+						<div class="propaganda_cont_r">
+							<div class="propaganda_cont_r_title">
+								<h4>主播星势力活动介绍</h4>
+							</div>
+							<div class="propaganda_cont_r_content">
+								<div class="propaganda_cont_r_text">
+									<p>《主播星势力》是广州广播电视台综合频道和威朋集团比格APP在2017年精心打造的主播选秀养成项目，节目将在北京、上海、广州、深圳、重庆，以及香港、台湾等地区同步启动，将借助新媒体网红直播的玩法，让选手通过网络视频展示才艺。最终，招募选出的24名优秀选手，将进入场景式选秀——养成营；入围选手会分组竞赛，每周淘汰一部分选手，他们的动态将会在视频网站及直播平台进行每天24小时直播；最后决出的5位胜出者将会进入终极决赛——绽放之夜，未来有望成为广州综合频道的主播。《主播星势力》从选手招募、拍摄录制到节目播出的各个阶段，都会在各大网络新媒体、直播平台、电商平台等与网友进行互动，实现真正意义上的台网联动。</p>
+								</div>
+								<div class="propaganda_cont_r_btn">
+									<a href="#" onMouseOver="document.all.menulayer_1.style.visibility=''" onMouseOut="document.all.menulayer_1.style.visibility='hidden'">立刻报名</a>
+									<div id="menulayer_1" class="menulayer" style="visibility: hidden;margin-top: -50px;">About Us, About Blazing Flames.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 导航 结束 -->
+		<!-- 内容 开始 -->
+		<div class="content_all">
+			<div class="content_a">
+				<div class="content_a_title">
+					<i></i>
+					<h4>每期看点</h4>
+					<h5>3月25号 IGC</h5>
+					<span>4月23号 大学城</span>
+					<span>5月18号 富力海珠城</span>
+					<span>6月19号 华尔街专场 </span>
+				</div>
+			   	<div class="m_banner">
+			   		<div class="content_a_cont" style="" id="banner1">
+			      		<div class="content_a_cont_l">
+							<div style="width: 492px;height: 341px;margin:0;">
+								<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="492" height="341" poster="images/shiping_bg.jpg" data-setup="{}">
+									<source src="video/zhuboxinshili.mov" type='video/mp4' />
+									<source src="video/zhuboxinshili.mov" type='video/webm' />
+									<source src="video/zhuboxinshili.mov" type='video/ogg' />
+									<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								</video>
+							</div>
+							<div class="content_a_cont_video_tit">
+								<h4>星主播刘丽丽</h4>
+								<h5>大家好，我是主播星势力24号...</h5>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力241号...</h5>
+								</div>
+							</div>
+						</div>
+				    </div>
+				    <div class="content_a_cont" style="display:none;" id="banner2">
+				      	<div class="content_a_cont_l">
+							<div style="width: 492px;height: 341px;margin:0;">
+								<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="492" height="341" poster="images/shiping_bg.jpg" data-setup="{}">
+									<source src="video/zhuboxinshili.mov" type='video/mp4' />
+									<source src="video/zhuboxinshili.mov" type='video/webm' />
+									<source src="video/zhuboxinshili.mov" type='video/ogg' />
+									<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								</video>
+							</div>
+							<div class="content_a_cont_video_tit">
+								<h4>星主播刘丽丽</h4>
+								<h5>大家好，我是主播星势力24号...</h5>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力242号...</h5>
+								</div>
+							</div>
+						</div>
+				    </div>
+				    <div class="content_a_cont" style="display:none;" id="banner3">
+						<div class="content_a_cont_l">
+							<div style="width: 492px;height: 341px;margin:0;">
+								<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="492" height="341" poster="images/shiping_bg.jpg" data-setup="{}">
+									<source src="video/zhuboxinshili.mov" type='video/mp4' />
+									<source src="video/zhuboxinshili.mov" type='video/webm' />
+									<source src="video/zhuboxinshili.mov" type='video/ogg' />
+									<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								</video>
+							</div>
+							<div class="content_a_cont_video_tit">
+								<h4>星主播刘丽丽</h4>
+								<h5>大家好，我是主播星势力24号...</h5>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+						</div>
+						<div class="content_a_cont_r">
+							<div class="content_a_cont_rt">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rttit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力24号...</h5>
+								</div>
+							</div>
+							<div class="content_a_cont_rb">
+								<div style="width: 216px;height: 150px;margin:0;">
+									<video id="example_video_l" class="video-js vjs-default-skin" controls preload="none" width="216" height="150" poster="images/shiping_bg.jpg" data-setup="{}">
+										<source src="video/zhuboxinshili.mov" type='video/mp4' />
+										<source src="video/zhuboxinshili.mov" type='video/webm' />
+										<source src="video/zhuboxinshili.mov" type='video/ogg' />
+										<track kind="captions" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+										<track kind="subtitles" src="video/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+									</video>
+								</div>
+								<div class="content_a_cont_video_rbtit">
+									<h4>星主播刘丽丽</h4>
+									<h5>大家好，我是主播星势力243号...</h5>
+								</div>
+							</div>
+						</div>
+				    </div>
+				    <div class="banner_ctrl">
+				    	<a href="javascript:;" class="prev" title=""></a> 
+				    	<a href="javascript:;" class="next" title=""></a> 
+				    </div>
+			   	</div>
+			</div>
+		</div>
+		<!-- 内容 结束 -->
+		<!-- 导师 开始 -->
+		<div class="tutor_all">
+			<div class="tutor_b">
+				<div class="tutor_b_title">
+					<i></i>
+					<h4>导师阵营</h4>
+				</div>
+			   	<div class="tutor_b_cont">
+					<div class="tutor_list">
+						<img src="images/tutor_touxiang.jpg" />
+						<div class="tutor_list_title">
+							<h4>高晞</h4>
+							<h5>广州电视台著名主持人</h5>
+						</div>
+					</div>
+					<div class="tutor_list">
+						<img src="images/tutor_touxiang.jpg" />
+						<div class="tutor_list_title">
+							<h4>高晞</h4>
+							<h5>广州电视台著名主持人</h5>
+						</div>
+					</div>
+					<div class="tutor_list">
+						<img src="images/tutor_touxiang.jpg" />
+						<div class="tutor_list_title">
+							<h4>高晞</h4>
+							<h5>广州电视台著名主持人</h5>
+						</div>
+					</div>
+					<div class="tutor_list">
+						<img src="images/tutor_touxiang.jpg" />
+						<div class="tutor_list_title">
+							<h4>高晞</h4>
+							<h5>广州电视台著名主持人</h5>
+						</div>
+					</div>
+					<div class="tutor_list">
+						<img src="images/tutor_touxiang.jpg" />
+						<div class="tutor_list_title">
+							<h4>高晞</h4>
+							<h5>广州电视台著名主持人</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 导师 结束 -->
+		<!-- 合作媒体 开始 -->
+		<div class="media_all">
+			<div class="media_c">
+				<div class="media_c_title">
+					<i></i>
+					<h4>合作媒体</h4>
+				</div>
+			   	<div class="media_c_cont">
+					<div class="media_list">
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+					</div>
+					<div class="media_list">
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+						<a href="#">
+							<img src="images/brand_logo.jpg" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 合作媒体 结束 -->
+		<!-- 版权 开始 -->
+		<div class="copyright_all">
+			<div class="copyright">
+				<li>Copyright  2017 biggar.cn Limited All Rights Reserved. </li>
+				<li>比格秀·主播星势力 版权所有 </li>
+			</div>
+		</div>
+		<!-- 版权 结束 -->
+	</body>
+</html>
+

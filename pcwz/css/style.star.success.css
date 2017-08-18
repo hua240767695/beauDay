@@ -1,0 +1,91 @@
+
+.page{
+	background: #fff;
+}
+
+/* 边框夹产品图 */
+.appinxhead {
+	position: relative;
+}
+.appinxhead .inxback img{
+	width: 100%;
+}
+
+.appcedoter {
+	display: -webkit-box;
+	-webkit-box-align:center;
+}
+.appcedoter div{
+	-webkit-box-flex:1;
+	max-width: 768px;
+    min-width: 320px;
+}
+.appcedoter .codelf{
+	position: absolute;top: 0;
+}
+.appcedoter .codelf img{
+	width: 100%;
+}
+
+/* 中间按钮 */
+.indexter_btn{
+	width: 100%;
+    /* margin: auto; */
+    position: relative;
+    display: block;
+    margin-top: -25%;
+}
+.indexter_btn img{
+	width: 30%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+/* 底部文字 */
+.appred {
+	margin-top: 0.5rem;
+}
+@media (max-width: 320px) {
+	.appred{
+		margin-top: 0.1rem;
+	}
+}
+.appred .apptitle {
+	padding: 0 1rem;
+}
+.appred .apptitle h4{
+	text-align: center;
+	line-height: 1.2rem;
+	font-size: 0.7rem;
+	color: #666;
+}
+.appred .red{
+	margin-top: 0.5rem;
+}
+@media (max-width: 320px) {
+	.appred .red{
+		margin-top: 0.1rem;
+	}
+}
+.appred .red a{
+	width: 3rem;
+	height: 1.2rem;
+	font-size: 0.7rem;
+	color: #fff;
+	background: #59b7ff;
+	border-radius: 0.6rem;
+	line-height: 1.2rem;
+	text-align: center;
+	margin: auto;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+
+
+

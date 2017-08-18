@@ -1,0 +1,188 @@
+body{
+	background: #dddce1;
+}
+
+.page{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	background: url(../images/star/toupiao_bg.png) no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.vote_content{
+	padding: 1rem 1.5rem;
+}
+
+.appred {width: 10rem; height: 10rem; margin: auto;top: 0;right: 0;bottom: 0;left: 0;}
+.appred .red {text-align: center;width: 10rem; height: 10rem;margin-top: 1rem;}
+.appred .red img{width: 10rem; height: 10rem;}
+
+.appbrand {width: 100%;}
+.appbrand .banbk img{width: 100%;}
+
+.appbox{width: 100%;height: 12rem; margin: auto;top: 0;right: 0;bottom: 0;left: 0;}
+@media (max-width: 320px) {
+	.appbox{
+		height: 10rem;
+	}
+}
+@media (min-width: 768px) {
+	.appbox{
+		width: 65%;
+	}
+}
+.appbox .boxlogo{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.appbox .boxlogo a{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-image: url(../images/star/toupiao_btn_icon.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    position: relative;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 11rem;
+}
+@media (max-width: 320px) {
+	.appbox .boxlogo a{
+		line-height: 9.5rem;
+	}
+}
+
+
+
+/* 规则 */
+.toupiao_btn {
+	position: fixed;
+	max-width: 768px;
+	min-width: 320px;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	background:rgba(0,0,0,0.5);
+}
+.project_top{
+	width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #f28592;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    float: right;
+    margin: 1rem 1rem 0 0;
+}
+.project_cont{
+	background: #fff;
+    border-radius: 8px;
+    width: 80%;
+    height: 10rem;
+    padding: 0.6rem;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+@media (min-width: 320px) {
+	.project_cont{
+		background: #fff;
+	    border-radius: 8px;
+	    width: 80%;
+	    height: 11rem;
+	    padding: 0.6rem;
+	    margin: auto;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    bottom: 0;
+	    position: absolute;
+	}
+}
+.project_ceng{
+	height: 60%;
+	background:rgba(0,0,0,0.7);
+	padding: 10px;
+	display: block;
+}
+.ceng_cont{
+	background: #fff; 
+	margin: 0 20px 0 20px; 
+	border-radius: 8px; 
+	margin-top: 10%;
+	height: 77%;
+}
+.sign_title_text{
+	width: 3.6rem;
+    height: 3.6rem;
+    color: #333;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.sign_title_cont{
+	width: 100%;
+	height: 5rem;
+	color: #8d4923;
+	font-size: 0.8rem;
+	line-height: 4vh;
+	text-align: left;
+	overflow-y: auto;
+	left:0;
+	_padding:0 17px 0 0;
+}
+.sign_title_cont p{
+	padding: 0 1.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+.appload {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.appload a:nth-child(1){
+	padding: 0.4rem 1.2rem;
+	border-radius: 3px;
+	font-size: 0.7rem;
+	color: #fff;
+	background: #4b9df9;
+	margin-right: 0.5rem;
+}
+.appload a:nth-child(2){
+	padding: 0.4rem 1.2rem;
+	border-radius: 3px;
+	font-size: 0.7rem;
+	color: #fff;
+	background: #ffc531;
+	margin-left: 0.5rem;
+}
+
+
+
+
+
+

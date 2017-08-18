@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>现场投票</title>
+<meta name="description" content="{$info.E_Name}">
+<meta name="keywords" content="{$info.E_Name}">
+<link rel="stylesheet" href="__PUBLIC__/app/css/iconfont.css?{$VerCode}">
+<link rel="stylesheet" href="__PUBLIC__/app/css/common.css?{$VerCode}">
+<link rel="stylesheet" href="__PUBLIC__/app/css/index.css?{$VerCode}">
+<link rel="stylesheet" href="__PUBLIC__/app/css/style.star.vote.css">
+<style>
+
+</style>
+</head>
+
+<body>
+	<div class="page">
+	    <div class="vote_content">
+		    <div class="appred">
+				<div class="red"><img src="__PUBLIC__/app/images/star/index_logo_icon.png" alt=""></div>
+			</div>
+		
+			<div class="appbrand">
+				<div class="banbk"><img src="__PUBLIC__/app/images/star/toupiao_text_icon.png" alt=""></div>
+			</div>
+		
+			<div class="appbox">
+				<div class="boxlogo">
+					<a href="javascript:;" onclick="Rule()">
+						开始投票
+					</a>
+				</div>
+			</div>
+		</div>
+	    <!-- 点击弹出层 -->
+			<footer style="z-index: 999; display: none;top: 0;right: 0;bottom: 0;left: 0;margin: auto;" class="toupiao_btn" id="rule_c">
+				<div class="project_cont">
+				    <div class="sign_title_text">
+				    	<img src="__PUBLIC__/app/images/star/touptishi_icon.png" />
+				    </div>
+				    <div class="sign_title_cont">
+				    	<p>本轮投票尚未开始，请稍后 再试，你可以选择“刷新”或者“返回”</p>
+				    	<div class="appload">
+							<a href="#">刷新</a>
+							<a href="javascript:;" onclick="Rule()">返回</a>
+						</div>
+				    </div>
+				</div>
+			</footer>
+		<!-- 点击弹出层 结束 -->
+	</div>
+</body>
+</html>
+
+<script src="__PUBLIC__/app/js/jquery.js"></script>
+<script type="text/javascript">
+	
+	//点击弹出规则框
+	function Rule(){
+		var value = document.getElementById("rule_c").style.display;
+		if(value=="none")
+		{
+			document.getElementById("rule_c").style.display="block";
+			document.body.style.height="100%";document.body.style.overflow="hidden";
+		}
+		else
+		{
+			document.getElementById("rule_c").style.display="none";
+			document.body.style.height="";document.body.style.overflow="";
+		}
+	}
+	
+</script>

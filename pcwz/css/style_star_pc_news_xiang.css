@@ -1,0 +1,160 @@
+
+
+/* banner */
+.news_banner{
+	width: 100%;
+	height: 301px;
+}
+.news_banner ul{
+	width: 100%;
+	height: 301px;
+	margin: auto;
+}
+.news_banner ul img{
+	width: 100%;
+	height: 301px;
+	float: left;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+/* 内容样式 */
+.news_content_all{
+	width: 100%;
+	height: 965px;
+}
+.news_content{
+	width: 1200px;
+	height: 965px;
+	margin: auto;
+}
+
+.news_content_nav{
+	width: 1200px;
+	height: 56px;
+	float: left;
+}
+.news_content_nav a{
+	padding: 0 2px;
+	height: 56px;
+	float: left;
+	line-height: 56px;
+	font-size: 18px;
+	color: #333;
+}
+.news_content_nav a:nth-child(5){
+	color: #ff0101;
+}
+.news_content_nav span{
+	padding: 0 2px;
+	height: 56px;
+	float: left;
+	line-height: 56px;
+	font-size: 18px;
+	color: #333;
+}
+.news_cont_text{
+	width: 1120px;
+	height: 730px;
+	padding: 40px;
+	background: #fff;
+	float: left;
+}
+.news_cont_text_tit{
+	width: 1120px;
+	height: 110px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+.news_cont_text_tit h4{
+	width: 1120px;
+	height: 34px;
+	float: left;
+	text-align: center;
+	line-height:34px;
+	font-size: 26px;
+	color: #666;
+}
+.news_cont_text_tit h5{
+	width: 1120px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height:30px;
+	font-size: 16px;
+	color: #666;
+}
+.news_fenxiang{
+	width: 160px;
+	height: 30px;
+	float: right;
+	margin-top: -30px;
+}
+.news_fenxiang span{
+	width: 50px;
+	height: 30px;
+	float: left;
+	text-align: left;
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+}
+.news_fenxiang a{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+.news_fenxiang a:nth-child(4){
+	margin-right: 0;
+}
+.news_fenxiang a img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.news_cont_paragraph{
+	width: 1120px;
+	padding: 40px 0;
+	float: left;
+}
+.news_cont_paragraph p{
+	width: 1120px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #333;
+	float: left;
+	text-align: Justify;
+	text-justify: inter-ideograph;
+	text-indent: 30px;
+}
+
+.news_more{
+	width: 1120px;
+	height: 60px;
+	padding: 20px 40px;
+	float: left;
+}
+.news_more a{
+	width: 1120px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	color: #333;
+	font-size: 16px;
+}
+.news_more a:hover{
+	color: #FF0101;
+}
+
+
+
+
+
+
+
+
+
